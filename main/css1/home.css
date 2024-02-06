@@ -1,0 +1,237 @@
+@import url(font.css);
+
+body
+{
+	margin:0px;
+	padding:0px;
+	font-family:
+}
+
+
+/****************Home page Header ******************/
+
+#home_bg_wrap
+{
+	background-image:url(../image/comp1.png);
+	background-size:100%;
+	height:140%;
+	width:100%;
+}
+
+#hom_head
+{
+	padding:5px 0px;
+	background-color:rgba(12,11,11,0.4);
+	height:100px;
+}
+
+.inwrap
+{
+	width:1000px;
+	margin:0 auto;
+	padding:1px 0px;
+}
+
+#logo
+{
+	height:80px;
+	width:400px;
+	background:url(../image/logo1.png) no-repeat center center;
+	background-size:100%;
+	float:left;
+}
+
+#head_search
+{
+	float:right;
+	padding:20px 0px;
+}
+
+#srch_box
+{
+	border:1px solid black;
+	border-radius:5px;
+	background-color:black;
+	padding:5px 10px 5px 25px;
+	color:white;
+	background-image:url(../image/search.png);
+	background-repeat:no-repeat;
+	background-position:center left;
+	background-size:20px;
+	font-size:16px;
+	font-weight:normal;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+/************ Home page content ********************/
+
+#home_cont{padding:20px 0px 0px 0px;}
+
+
+/************* admin login ******************/
+
+#admin_log_wrap
+{
+	float:left;
+	width:400px;
+}
+
+#admin_tab
+{
+	padding:5px 10px;
+	width:150px;
+	background-color:rgba(242,97,0,0.9);
+	font-size:18px;
+	color:white;
+	font-family:RobotoRegular;
+}
+
+#admin_form
+{
+	padding:30px 5px;
+	width:400px;
+	background-color:rgba(0,0,0,0.8);
+	color:white;
+	font-family:RobotoRegular;
+	border-radius:0px 10px 10px 0px;
+	height:150px;
+}
+
+#admin_tab img{padding:0px 10px 0px 0px;}
+
+#aun_msg, #apw_msg{color:red;padding:0px 5px;}
+
+/************************ user login ************************/
+
+#user_log_wrap
+{
+	float:right;
+	width:400px;
+}
+
+#user_tab
+{
+	padding:5px 10px;
+	width:150px;
+	background-color:rgba(6,134,255,0.9);
+	font-size:18px;
+	color:white;
+	font-family:RobotoRegular;
+}
+
+#user_form
+{
+	padding:30px 5px;
+	width:400px;
+	background-color:rgba(0,0,0,0.8);
+	color:white;
+	font-family:RobotoRegular;
+	border-radius:0px 10px 10px 0px;
+	height:150px;
+}
+
+#user_tab img{padding:0px 10px 0px 0px;}
+
+#uun_msg, #upw_msg{color:red;padding:0px 5px;}
+
+#reg{color:yellow;}
+
+/****************** Register **********************/
+
+#reg_log_wrap
+{
+	margin:0 auto;
+	clear:both;
+	width:600px;
+}
+
+#reg_tab
+{
+	padding:5px 10px;
+	width:200px;
+	background-color:rgba(6,134,255,0.9);
+	font-size:18px;
+	color:white;
+	font-family:RobotoRegular;
+}
+
+#reg_form
+{
+	padding:20px 15px;
+	width:500px;
+	background-color:rgba(0,0,0,0.8);
+	color:white;
+	font-family:RobotoRegular;
+	border-radius:0px 10px 10px 0px;
+}
+
+#reg_tab img{padding:0px 10px 0px 0px;}
+
+#xun_msg, #xpi_msg, #xge_msg, #xem_msg,#xde_msg, #xmo_msg, #xpw_msg, #xrp_msg, #xci_msg, #xad_msg{color:red;padding:0px 5px;}
+
+/****************** common classes *************************/
+
+.space_50{clear:both;height:50px;}
+.space_20{clear:both;height:20px;}
+.space_30{clear:both;height:30px;}
+.space_70{clear:both;height:70px;}
+
+.orn_line_2{border-bottom:2px solid #f26100;}
+
+.labl{clear:both;float:left;width:100px; margin:8px 10px;}
+.inp{float:left;width:200px;margin:5px 0px;}
+
+.inpt_style1
+{
+	border:1px solid grey;
+	padding:5px;
+	border-radius:2px;
+	color:black;
+	font-family:RobotoRegular;
+}
+
+input[type=file]{color:white;}
+
+.frm_but
+{
+	clear:both;
+	text-align:center;
+	padding:10px 10px;
+}
+
+.subm
+{
+	background-color:green;
+	padding:3px 25px;
+	color:black;
+	font-family:RobotoBold;
+	border:1px solid green;
+	border-radius:3px;
+	cursor:pointer;
+}
+
+.subm:hover{color:white;}
+.rese:hover{color:white;}
+
+.rese
+{
+	background-color:red;
+	padding:3px 15px;
+	color:black;
+	font-family:RobotoBold;
+	border:1px solid red;
+	border-radius:3px;
+	cursor:pointer;
+}
+
+.emsg{color:red;font-family:RobotoRegular;text-align:center;}
+.ermsg{background-color:#FFFF00;color:red;font-family:RobotoRegular;text-align:center;margin:0 auto;width:500px;}
+
+textarea{resize:none;}
+
+
+.form_title{text-align:center;font-size:22px;font-family:RobotoBold;color:Yellow;text-decoration:underline;}
+.car_box{overflow:hidden;padding:10px;margin:5px;float:left;border:1px dotted white;width:200px;}
+.car_box img{padding:2px;border:1px solid lavender;}
+.c_txt1{color:yellow;font-family:RobotoBold;margin:5px 0px;}
+.c_txt2{color:aqua;font-family:Robotoitalic;margin:5px 0px;font-size:12px;}

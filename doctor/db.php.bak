@@ -1,0 +1,34 @@
+<?php
+	 session_start();
+   
+	if(!isset($_SESSION['sub_doc']))
+	{
+		header("location:../");
+	}
+	else
+	{
+		$sub_doc=$_SESSION['sub_doc'];
+	}
+
+	error_reporting(0);
+
+	$con = new mysqli('localhost','root','');
+
+	$con=mysqli_connect("localhost","root","") or die(mysqli_error());
+	$db=mysqli_select_db($con,"hospitalmce") or die(mysqli_error());
+    
+	$con->query("create or replace view doc_view as select p.pid,p.pname,p.age,p.Disease,p.did,p.hid from patient p where p.did='$sub_doc' ");
+
+
+
+    $array = $con->query("select * from doctor where did ='$sub_doc'");
+    $doc = $array->fetch_assoc();
+
+ 
+
+
+	$base_path = "http://localhost/SmartHospital/";
+
+
+
+?>

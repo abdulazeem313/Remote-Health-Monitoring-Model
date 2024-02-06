@@ -1,0 +1,763 @@
+<!doctype html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow">
+<meta name="description" content="Remote Health Monitering System">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Home | Remote Health Monitering System</title>
+
+
+
+	<link href="css/font-awesome.css" rel="stylesheet"> 
+	<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen">
+	<link href="css/easy-responsive-tabs.css" rel='stylesheet' type='text/css'/>
+
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" property="" />
+	<link rel="stylesheet" href="css/jquery-ui.css" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script>
+
+		<!--fonts-->
+	<link href="//fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Federo" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+	<!--//fonts-->
+	<!-- ******************************************************************************************************** -->
+<link rel="stylesheet" href="./w3.css">
+<link href="./css/bootstrap.min.css" rel="stylesheet">
+<link href="./css/pace-minimal.css" rel="stylesheet">
+
+<link href="./fonts/fonts.googleapis" rel="stylesheet">
+		<!-- <link href="./css/style.css" rel="stylesheet" > -->
+   <script src="./js/jquery.min.js"></script> 
+   <script src="./js/bootstrap.min.js"></script> 
+   <script src="./js/pace.min.js"></script> 
+   <script src="./js/api.js"></script> 
+      <!--jquery-->
+<script type="text/javascript" async="" src="./Home _files/recaptcha__en.js.download"></script>
+<script src="./Home _files/jquery.min.js.download"></script>
+
+<!-- Page loader-->
+<script src="./Home _files/pace.min.js.download"></script>
+<link rel="stylesheet" href="./Home _files/pace-minimal.css" type="text/css">
+
+<!-- Bootstrap -->
+<link rel="stylesheet" href="./Home _files/bootstrap.min.css" type="text/css">
+
+<!-- Fonts -->
+<link href="./Home _files/css" rel="stylesheet">
+
+<!-- Plugins -->
+<link rel="stylesheet" href="./Home _files/swiper.min.css">
+<link rel="stylesheet" href="./Home _files/hamburgers.min.css" type="text/css">
+<link rel="stylesheet" href="./Home _files/animate.min.css" type="text/css">
+<link rel="stylesheet" href="./Home _files/iziToast.min.css" type="text/css">
+
+<!-- Icons -->
+<link rel="stylesheet" href="./Home _files/font-awesome.min.css" type="text/css">
+<link rel="stylesheet" href="./Home _files/ionicons.min.css" type="text/css">
+<link rel="stylesheet" href="./Home _files/line-icons-pro.css" type="text/css">
+
+<!-- Global style (main) -->
+<link id="stylesheet" type="text/css" href="./Home _files/global-style.css" rel="stylesheet" media="screen">
+
+<!-- Custom style - Remove if not necessary -->
+<link type="text/css" href="./Home _files/custom-style.css" rel="stylesheet">
+
+<!-- Favicon -->
+<link href="./Home _files/favicon.png" rel="icon" type="image/png">
+
+<!-- recaptcha -->
+<script src="./Home _files/api.js.download"></script>  
+<style>
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: #000000;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #000;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+  button {
+      width: 100px;
+	  height: 30px;
+      padding: 0px;
+      border: none;
+      border-radius: 5px; 
+      background: #ffffff;
+      font-size: 16px;
+      color: #000000;
+      cursor: pointer;
+      }
+      button:hover {
+      background: #1dcee2;
+	  color: #fff;
+      cursor: pointer;
+      }
+</style>
+<script type="text/javascript">
+function Writecookie()
+{
+		if(document.Myform.ser.value=="")
+		{
+	   alert("Enter Patitent ID No !!"); 
+	   return;
+	   }
+	    window.alert('Patitent Login is sucessful')
+		Myform.action="http://localhost/SmartHospital/search/index.php";
+        
+}
+</script>
+ </head>
+
+
+<!-- //************************************************************************ -->
+  <body class="  pace-done">
+
+
+	<div class="pace  pace-inactive">
+	
+	<div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
+  <div class="pace-progress-inner"></div>
+</div>
+<div class="pace-activity"></div></div>
+
+  <!-- MAIN WRAPPER -->
+        <div class="body-wrap">
+            <div id="st-container" class="st-container">
+                <div id="doctor_details"></div>   
+                <div class="st-pusher">
+                    <div class="st-content">
+                        <div class="st-content-inner">
+                            
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg  navbar-light bg-default navbar--link-arrow navbar--uppercase bayanno-nav">
+    <div class="container navbar-container">
+
+ <img src="./Home _files/logo.png" width="40" alt="">
+        <!-- Brand/Logo -->
+        <a class="navbar-brand" href="mainscreen.html">
+            &nbsp; Remote Health Monitering System </a>
+
+        
+
+        <div class="collapse navbar-collapse align-items-center justify-content-end" id="navbar_main">
+            <!-- Navbar links -->
+  <ul class="navbar-nav" data-hover="dropdown">
+                <li class="nav-item
+                    active">
+                    <a class="nav-link" aria-haspopup="true" aria-expanded="false" href="mainscreen.html">Home               </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" aria-haspopup="true" aria-expanded="false" href="http://localhost/SmartHospital/DHO/index.php">DHO_Login</a>
+                </li>
+				<li class="nav-item">
+                    <a class="nav-link" aria-haspopup="true" aria-expanded="false" href="http://localhost/SmartHospital/THO.php">THO_Login</a>
+                </li>
+                <li class="nav-item">
+				 <div class="dropdown"><a class="nav-link" aria-haspopup="true" aria-expanded="false" href="mainscreen.html"> Login </a>
+	<div  class="dropdown-content">
+	<a class="nav-link" aria-haspopup="true" aria-expanded="false" href="http://localhost/SmartHospital/adminlogin.php">Admin_Login </a>
+					  <a class="nav-link" aria-haspopup="true" aria-expanded="false" href="http://localhost/SmartHospital/Doctorlogin.php"> Doctors_Login  </a>
+					  <a class="nav-link" aria-haspopup="true" aria-expanded="false" href="#.php"> Patient_Login  </a>	
+					   </div>				   
+					   </div>
+					   </li>
+					      &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;  
+           <li class="nav-item" >
+				
+						<input  class="search_box" type="checkbox" id="search_box" >
+	       <label  for="search_box" >
+
+			 <sub> <p  aria-haspopup="true" aria-expanded="false" href="#.php"> <strong>SEARCH</strong></p></sub>
+	</label>
+						<div class="search_form">
+							<form  name="Myform" method="post">
+								<input type="search" name="ser" placeholder="Enter the Patitent Id Here"  />
+								&nbsp;&nbsp;&nbsp;&nbsp;<button   value="Set Cookies" name="Search" onclick="Writecookie();">Search
+<!-- onclick="this.form.target='_blank';return true;" -->		
+							</form>
+						</div>
+
+					
+              </li>
+               
+                <!-- <li class="nav-item ">
+                    <a class="nav-link" aria-haspopup="true" aria-expanded="false" href="#">
+                    About                    </a>
+                </li> -->
+               
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+    <!-- ************************************************************************************************************************************************************************************************ -->              	
+		<!--------Content ------------------->
+
+			<!--------------- Image Slider---------------------->
+			<div class="container-fluid no-margin">
+				
+				<div id="#myCarousel" class="carousel slide" data-ride="carousel">
+					  <!-- Indicators -->
+					  <ol class="carousel-indicators">
+					    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					    <li data-target="#myCarousel" data-slide-to="1"></li>
+					    <li data-target="#myCarousel" data-slide-to="2"></li>
+					  </ol>
+					
+					  <!-- Wrapper for slides -->
+					  <div class="carousel-inner" role="listbox" >
+
+								<div class="item active">
+								  <img class="img-responsive" src="./slider5.jpg" alt="">
+								</div>
+							
+								<div class="item">
+								  <img class="img-responsive" src="./slider2.jpg" alt="">
+								</div>
+							
+								<div class="item">
+								  <img class="img-responsive" src="./welcome.png" alt="">
+								</div>
+	    
+					  </div>
+					
+					  <!-- Left and right controls -->
+					  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+					    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					    <span class="sr-only">Previous</span>
+					  </a>
+					  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+					    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					    <span class="sr-only">Next</span>
+					  </a>
+
+					</div>			
+			</div>	
+	
+    <!-- ************************************************************************************************************************************************************************************************ -->               					
+
+
+				            <!-- Add Arrows -->
+            <div class="swiper-button swiper-button-next"></div>
+            <div class="swiper-button swiper-button-prev"></div>
+				
+				
+
+
+<section class="home-top-widgets">
+    <div class="container">
+        <div class="row">
+
+
+            <div class="col-lg-4">
+                <div class="home-widget widget-1">
+                      <i class="jd-img-loaded"><img src="781A531384A9657D76984DBA10_1503989917541.webp"  > </i>
+                    <h4>Emergency Contact</h4>
+                    <h3>1-800-400-7400</h3>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="home-widget widget-2">
+                    <i class="fa fa-calendar"></i>
+                    <h4>Doctor Appointment</h4>
+                    <a href="http://creativeitem.com/demo/bayanno/index.php/home/appointment" class="btn">
+                        Book An Appointment                    </a>
+                </div>
+            </div>
+
+
+            <div class="col-lg-4">
+                <div class="home-widget widget-3">
+                    <i class="jd-img-loaded"><img src="1D84B80BCC549EC6D716FC3F4C_1503989924410.webp"  > </i>
+                    <h4>Opening Hours</h4>
+                                        <ul>
+                        <li class="clearfix">Monday - Friday 
+                            <span class="float-right">10.00-21.00</span></li>
+                        <li class="clearfix">Saturday 
+                            <span class="float-right">10.00-18.00</span></li>
+                        <li class="clearfix">Sunday 
+                            <span class="float-right">11.00-17.00</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="slice sct-color-2 pb-0">
+    <div class="container">
+        <div class="row align-items-md-center">
+            
+            <div class="col col-md-6 col-sm-12 col-12">
+                <img src="./Home _files/welcome.png" class="img-fluid img-center">
+            </div>
+            
+            <div class="col col-md-6 col-sm-12 col-12">
+                <div class="px-3 py-3 text-center text-lg-left">
+                    <h3 class="heading heading-3 strong-500">
+                        Welcome To Remote Health Monitering System                    </h3>
+                    <p class="mt-4">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris quisque adipiscing lobortis aptent cras et justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris quisque adipiscing lobortis aptent cras et justo.                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+<section class="slice slice--arrow bg-base-1">
+    <div class="sct-inner container">
+        <div class="section-title section-title-inverse section-title--style-1 text-center">
+            <h3 class="section-title-inner">
+                <span>Our World Class Services</span>
+            </h3>
+            <span class="section-title-delimiter clearfix d-none"></span>
+        </div>
+
+        <div class="fluid-paragraph fluid-paragraph-sm text-center">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Ut enim ad minim veniam.        </div>
+    </div>
+</section>
+<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+<section class="slice-xl sct-color-1 b-xs-bottom">
+    <div class="container">
+        <div class="row-wrapper">
+            <div class="row">
+                                <div class="col-lg-6 col-md-12 col-sm-12 col-12" style="margin-top: 10px;">
+                    <div class="icon-block icon-block--style-1-v2 block-icon-right block-icon-sm">
+                        <div class="block-icon">
+                            <img src="./logo.png" width="50">
+                        </div>
+                        <div class="block-content">
+                            <h3 class="heading heading-5 strong-500">
+                                High quality service                            </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.                            </p>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-lg-6 col-md-12 col-sm-12 col-12" style="margin-top: 10px;">
+                    <div class="icon-block icon-block--style-1-v2 block-icon-right block-icon-sm">
+                        <div class="block-icon">
+                            <img src="./logo.png" width="50">
+                        </div>
+                        <div class="block-content">
+                            <h3 class="heading heading-5 strong-500">
+                                Modern hospital and technology                            </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.                            </p>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-lg-6 col-md-12 col-sm-12 col-12" style="margin-top: 10px;">
+                    <div class="icon-block icon-block--style-1-v2 block-icon-right block-icon-sm">
+                        <div class="block-icon">
+                            <img src="./logo.png" width="50">
+                        </div>
+                        <div class="block-content">
+                            <h3 class="heading heading-5 strong-500">
+                                Ready for intervention                            </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.                            </p>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-lg-6 col-md-12 col-sm-12 col-12" style="margin-top: 10px;">
+                    <div class="icon-block icon-block--style-1-v2 block-icon-right block-icon-sm">
+                        <div class="block-icon">
+                            <img src="./logo.png" width="50">
+                        </div>
+                        <div class="block-content">
+                            <h3 class="heading heading-5 strong-500">
+                                Specialist consulting for health problems                            </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.                            </p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+        </div>
+    </div>
+</section>
+
+<!--  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+<section class="slice sct-color-1 relative b-xs-bottom department-section">
+    <div class="container">
+        <div class="section-title section-title--style-1 text-center mb-4">
+            <h3 class="section-title-inner text-normal">
+                <span>Departments</span>
+            </h3>
+            <span class="section-title-delimiter clearfix d-none"></span>
+        </div>
+
+        <span class="clearfix"></span>
+
+        <span class="space-xs-xl"></span>
+        
+        <div class="row-wrapper">
+            <div class="row">
+                            <div class="col-lg-3">
+                    <a href="http://creativeitem.com/demo/bayanno/index.php/home/department/1">
+                        <div class="department-small-view">
+                            <div class="block-icon text-center">
+                                <img src="./Home _files/1(1).png" alt="" width="60">
+                                <h5>Anesthetics</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                            <div class="col-lg-3">
+                    <a href="http://creativeitem.com/demo/bayanno/index.php/home/department/2">
+                        <div class="department-small-view">
+                            <div class="block-icon text-center">
+                                <img src="./Home _files/2(1).png" alt="" width="60">
+                                <h5>Cardiology</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                            <div class="col-lg-3">
+                    <a href="http://creativeitem.com/demo/bayanno/index.php/home/department/3">
+                        <div class="department-small-view">
+                            <div class="block-icon text-center">
+                                <img src="./Home _files/3(1).png" alt="" width="60">
+                                <h5>Gastroenterology</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                        </div>
+        </div>
+        
+    </div>
+</section>
+
+<!--  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+	<!-- team -->
+	<div class="team" id="team">
+		<div class="container">
+			<h3 class="title-w3-agileits title-black-wthree">Our Awesome Doctors</h3>
+			<div id="horizontalTab">
+
+				<ul class="resp-tabs-list">
+					<li>
+						<img src="./teams1.jpg" alt=" " class="img-responsive" />
+					</li>
+					<li>
+						<img src="./teams2.jpg" alt=" " class="img-responsive" />
+					</li>
+					<li>
+						<img src="./teams3.jpg" alt=" " class="img-responsive" />
+					</li>
+					<li>
+						<img src="./teams4.jpg" alt=" " class="img-responsive" />
+					</li>
+				</ul>
+
+
+				<div class="resp-tabs-container">
+
+
+					<div class="tab1">
+						<div class="col-md-6 team-img-w3-agile"><img src="./teams1.jpg" height="10000" width="5000" alt=" " class="img-responsive" />
+						</div>
+						<div class="col-md-6 team-Info-agileits">
+							<h4>Lucas Jimenez</h4>
+							<span>Manager</span>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.Lorem ipsum dolor .</p>
+							<div class="social-bnr-agileits footer-icons-agileinfo">
+								<ul class="social-icons3">
+									<li><a href="#" class="fa fa-facebook icon-border facebook"> </a></li>
+									<li><a href="#" class="fa fa-twitter icon-border twitter"> </a></li>
+									<li><a href="#" class="fa fa-google-plus icon-border googleplus"> </a></li> 
+									<li><a href="#" class="fa fa-rss icon-border rss"> </a></li>
+								</ul>
+							</div>							
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+
+
+					<div class="tab2">
+						<div class="col-md-6 team-img-w3-agile"><img src="./teams2.jpg" height="10000" width="5000" alt=" " class="img-responsive" />
+						</div>
+						<div class="col-md-6 team-Info-agileits">
+							<h4>Sarah Connor</h4>
+							<span>Receptionist</span>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.Lorem ipsum dolor .</p>	
+							<div class="social-bnr-agileits footer-icons-agileinfo">
+								<ul class="social-icons3">
+									<li><a href="#" class="fa fa-facebook icon-border facebook"> </a></li>
+									<li><a href="#" class="fa fa-twitter icon-border twitter"> </a></li>
+									<li><a href="#" class="fa fa-google-plus icon-border googleplus"> </a></li> 
+									<li><a href="#" class="fa fa-rss icon-border rss"> </a></li>
+								</ul>
+							</div>							
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="tab3">
+						<div class="col-md-6 team-img-w3-agile"><img src="./teams3.jpg" height="10000" width="5000" alt=" " class="img-responsive" />
+						</div>
+						<div class="col-md-6 team-Info-agileits">
+							<h4>Ivan Simpson</h4>
+							<span>Manager</span>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.Lorem ipsum dolor .</p>
+							<div class="social-bnr-agileits footer-icons-agileinfo">
+								<ul class="social-icons3">
+									<li><a href="#" class="fa fa-facebook icon-border facebook"> </a></li>
+									<li><a href="#" class="fa fa-twitter icon-border twitter"> </a></li>
+									<li><a href="#" class="fa fa-google-plus icon-border googleplus"> </a></li> 
+									<li><a href="#" class="fa fa-rss icon-border rss"> </a></li>
+								</ul>
+							</div>							
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="tab4">
+						<div class="col-md-6 team-img-w3-agile"><img src="./teams4.jpg" height="10000" width="5000" alt=" " class="img-responsive" />
+						</div>
+						<div class="col-md-6 team-Info-agileits">
+							<h4>Marc Gutierrez</h4>
+							<span>Receptionist</span>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.Lorem ipsum dolor .</p>
+							<div class="social-bnr-agileits footer-icons-agileinfo">
+								<ul class="social-icons3">
+									<li><a href="#" class="fa fa-facebook icon-border facebook"> </a></li>
+									<li><a href="#" class="fa fa-twitter icon-border twitter"> </a></li>
+									<li><a href="#" class="fa fa-google-plus icon-border googleplus"> </a></li> 
+									<li><a href="#" class="fa fa-rss icon-border rss"> </a></li>
+								</ul>
+							</div>							
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //team -->
+
+
+
+   
+                           <!-- <div class="block-footer block-footer-fixed-bottom b-xs-top">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <ul class="social-media social-media--style-1-v4">
+                                                 <li>
+                                                    <a href="http://facebook.com/" target="_blank">
+                                                      <li><a href="#" class="fa fa-facebook icon-border facebook"> </a></li>
+                                                    </a>
+                                                </li>
+																																												<li>
+                                                    <a href="https://twitter.com/" target="_blank">
+                                                     <li><a href="#" class="fa fa-twitter icon-border twitter"> </a></li>
+                                                    </a>
+                                                </li>
+																																												 <li>
+                                                    <a href="https://google.com/" target="_blank">
+                                                    <li><a href="#" class="fa fa-google-plus icon-border googleplus"> </a></li> 
+                                                    </a>
+                                                </li>
+																																												<li>
+                                                    <a href="https://linkedin.com/" target="_blank">
+                                                     <li><a href="#" class="fa fa-rss icon-border rss"> </a></li>      
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                    </div>
+                                </div>
+                            </div>
+ -->
+
+							
+ 
+<!-- ****************************************************** -->
+							<div class="social-bnr-agileits footer-icons-agileinfo">
+								<ul class="social-icons3">
+									<li><a href="#" class="fa fa-facebook icon-border facebook"> </a></li>
+									<li><a href="#" class="fa fa-twitter icon-border twitter"> </a></li>
+									<li><a href="#" class="fa fa-google-plus icon-border googleplus"> </a></li> 
+									<li><a href="#" class="fa fa-rss icon-border rss"> </a></li>
+								</ul>
+							</div>							
+							<!-- ************************************************ -->
+<section class="slice sct-color-2 b-xs-top b-xs-bottom">
+    <div class="container">
+        <div class="text-center">
+            <div class="section-title section-title--style-1 text-center mb-4">
+                <h3 class="section-title-inner text-normal">
+                    <span>Get In Touch With Our Professionals</span>
+                </h3>
+                <span class="section-title-delimiter clearfix d-none"></span>
+            </div>
+
+            <span class="clearfix"></span>
+
+            <div class="mt-5">
+                <a href="#" class="btn btn-styled btn-lg btn-base-1">
+                    Make An Appointment                </a>
+            </div>
+        </div>
+    </div>
+</section>   
+
+
+
+
+
+
+
+<!-- FOOTER -->
+<footer id="footer" class="footer">
+    <div class="footer-top">
+        <div class="container">
+            <div class="row cols-xs-space cols-sm-space cols-md-space">
+                <div class="col-md-6 col-lg-4">
+                    <div class="col text-center">
+                        <img src="./Home _files/logo.png" width="60" alt="">
+                        &nbsp; <p class="mt-3">Remote Health Monitering System</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="col">
+                        <h4 class="heading heading-xs strong-600 text-uppercase mb-1">
+                            Main Menu                        </h4>
+
+                        <ul class="footer-links">
+                            <li>
+                                <a href="http://creativeitem.com/demo/bayanno/index.php/home">
+                                    Home                                </a>
+                            </li>
+                            <li>
+                                <a href="http://creativeitem.com/demo/bayanno/index.php/home/doctors">
+                                    Doctors                                </a>
+                            </li>
+                            <li>
+                                <a href="http://creativeitem.com/demo/bayanno/index.php/home/appointment">
+                                    Make An Appointment                                </a>
+                            </li>
+                            <li>
+                                <a href="http://creativeitem.com/demo/bayanno/index.php/login" target="_blank">
+                                    Login                                </a>
+                            </li>
+                        </ul>
+                        </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="col">
+                        <h4 class="heading heading-xs strong-600 text-uppercase mb-1">
+                            Help And Support                        </h4>
+
+                        <ul class="footer-links">
+                            <li>
+                                <a href="http://creativeitem.com/demo/bayanno/index.php/home/contact_us">
+                                    Contact Us                                </a>
+                            </li>
+                            <li>
+                                <a href="http://creativeitem.com/demo/bayanno/index.php/home/about_us">
+                                    About Us                                </a>
+                            </li>
+                            <li>
+                                <a href="http://creativeitem.com/demo/bayanno/index.php/home/blog">
+                                    Blog                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<div class="footer-bottom">
+        <div class="container">
+            <div class="row row-cols-xs-spaced flex flex-items-xs-middle">
+                <div class="col col-sm-7 col-xs-12">
+                    <div class="copyright text-xs-center text-sm-left">
+                        copyright@creativeitem | 2022                  </div>
+                </div>
+
+                         <div class="col col-sm-5 col-xs-12">
+                    <div class="text-xs-center text-sm-right">
+                        <ul class="social-icons3" >
+                                     <li><a href="#" class="fa fa-facebook icon-border facebook"> </a></li>
+									<li><a href="#" class="fa fa-twitter icon-border twitter"> </a></li>
+									<li><a href="#" class="fa fa-google-plus icon-border googleplus"> </a></li> 
+									<li><a href="#" class="fa fa-rss icon-border rss"> </a></li>
+                                                    </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+            
+       
+  
+  
+<!-- js -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script> 
+					<!--tabs-->
+				 <script src="js/easy-responsive-tabs.js"></script> 
+		<script>
+						$(document).ready(function () {
+							$('#horizontalTab').easyResponsiveTabs({
+								type: 'default', //Types: default, vertical, accordion           
+								width: 'auto', //auto or any width like 600px
+								fit: true,   // 100% fit in a container
+								closed: 'accordion', // Start closed if in accordion view
+								activate: function(event) { // Callback function if tab is switched
+									var $tab = $(this);
+									var $info = $('#tabInfo');
+									var $name = $('span', $info);
+									$name.text($tab.text());
+									$info.show();
+								}
+							});
+							$('#verticalTab').easyResponsiveTabs({
+								type: 'vertical',
+								width: 'auto',
+								fit: true
+							});
+						});
+					</script>
+
+
+ </body>
+</html>

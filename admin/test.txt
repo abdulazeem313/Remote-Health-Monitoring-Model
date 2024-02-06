@@ -1,0 +1,27 @@
+<div class="dashboard" style="position: fixed;width: 13%;height: 100%;background:#222D32">  <!--#79978F #357CA5 #1A2226 #222D32 -->
+
+  <div style="background:#222D32;padding: 8px 3px;color:white;font-size: 15pt;text-align: center;text-shadow: 1px 1px 11px white"><a href="index.php" style="color: white;text-decoration: none;"><?php echo "Main Menu"; ?> </a>
+  </div>
+
+
+  <div class="flex" style="padding: 3px 7px;margin:5px 2px;">
+    <div><img src="./Home _files/logo.png"  class='img-circle' style='width: 77px;height: 66px'></div>
+    <div style="color:lightgreen;font-size: 13pt;padding: 14px 7px;margin-left: 11px;">
+	<?php echo "<B><center>Admin</center></B> <a href='logoff.php'><font style=color:#ff6600>Log Off</font></a> "; ?></div>
+  </div>
+
+
+<div style="background:#1E282C;color: white;padding: 13px 17px;border-both: 3px solid #ffffff;">
+<span><i class="fa fa-dashboard fa-fw"></i> Dashboard</span></div>
+	<div class="item" style="background:#1E282C;color: white;padding: 13px 17px;">
+		  <ul class="nostyle zero" >
+			<a href="index.php"><li style="color: white;font-size:10pt;padding: 10px 15px;"><i class="fa fa-circle-o fa-fw"></i>Home</li></a>
+			<a href="inventeries.php"><li style="align-text:center;font-size: 10pt;padding: 10px 15px;"> <i class="fa fa-circle-o fa-fw"></i>Inventeries</li></a>
+		   <a href="addnew.php"><li style="align-text:center;font-size: 10pt;padding: 10px 15px;"><i class="fa fa-circle-o fa-fw"></i>Add New Item</li></a>
+			<a href="reports.php"><li style="font-size: 10pt;padding: 10px 15px;"><i class="fa fa-circle-o fa-fw"></i>Report</li></a>
+		  </ul>
+		</div></div>
+
+
+
+
